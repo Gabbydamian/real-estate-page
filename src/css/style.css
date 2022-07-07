@@ -192,6 +192,10 @@ nav {
   margin: 50px auto;
 }
 
+.section-3{
+  margin-bottom: 20px;
+}
+
 .section-3_left p a {
   color: var(--blue);
 }
@@ -226,6 +230,26 @@ nav {
   margin-left: 20px;
 }
 
+.house-info_right{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.house-info_right h2{
+  font-weight: bold;
+}
+
+.description-text{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.workspace, .access, .gate, .energy{
+  width: 150px;
+  margin: 10px 7px;
+}
+
 @media (max-width: 375px) {
   nav {
     justify-content: space-around;
@@ -235,6 +259,7 @@ nav {
 @media (max-width : 767px){
   .section-3_left {
     display: none;
+}
 }
 @media (min-width: 768px) {
   .nav {
@@ -247,5 +272,10 @@ nav {
 
   .intro-main_text {
     font-size: 4rem;
+  }
+  
+  .description-text{
+    padding: 0 100px;
+    justify-content: center;
   }
 }
