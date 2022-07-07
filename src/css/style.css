@@ -4,6 +4,7 @@
   --black: #101010;
   --white: #fff;
   --blue: #4134ff;
+  --off-white: #ebebeb;
 }
 
 * {
@@ -129,6 +130,7 @@ nav {
   background: var(--black);
   color: var(--white);
   border-bottom: 1px solid var(--white);
+  outline: none;
 }
 
 .accordion-button:focus,
@@ -137,8 +139,30 @@ nav {
   background: var(--black);
   border: none;
   border-bottom: 1px solid var(--white);
+  outline: none;
 }
 
+#info-accordion .accordion-button{
+  background: var(--white);
+  color: var(--black);
+}
+
+#info-accordion .accordion-button {
+  background: var(--white);
+  color: var(--black);
+}
+
+#info-accordion .accordion-body{
+  background: var(--white);
+  color: var(--black);
+}
+#info-accordion .accordion-button:focus,
+#info-accordion .accordion-button:active,
+#info-accordion .accordion-button:hover {
+  background: var(--white);
+  border: none;
+  border-bottom: 1px solid var(--black);
+}
 .section-2 {
   padding: 20px;
 }
@@ -247,14 +271,53 @@ nav {
 
 .description-text{
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .workspace, .access, .gate, .energy{
  margin-top: 10px;
  font-weight: bold;
 }
+
+.section-5{
+  margin: 50px 0 20px 0;
+}
+
+.section-5_left h3{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-5_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section-6-variant{
+  margin: 30px 0;
+  padding: 30px 0;
+ }
+ 
+ .section-7_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 40px;
+  margin: 20px auto;
+ }
+ 
+ .data-container{
+   margin: 10px;
+ }
+ 
+ #section-2_background{
+   background: var(--off-white);
+ }
 
 @media (max-width: 375px) {
   nav {
@@ -265,7 +328,14 @@ nav {
 @media (max-width : 767px){
   .section-3_left {
     display: none;
-}
+  }
+  
+  .section-6{
+    margin: 30px auto;
+  }
+  .section-6-variant{
+    display: none;
+  }
 }
 @media (min-width: 768px) {
   .nav {
@@ -283,5 +353,27 @@ nav {
   .description-text{
     padding: 0 100px;
     justify-content: center;
+  }
+  
+  .section-6{
+    display: none;
+  }
+  
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .data-container{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .data-text{
+  margin: auto 10px;
+  font-weight: bold;
   }
 }
