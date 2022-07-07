@@ -193,11 +193,37 @@ nav {
 }
 
 .section-3_left p a {
-  font-weight: bold;
+  color: var(--blue);
 }
 
 .section-3-right_header {
+  display: flex;
   font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.house-info{
+  margin: 20px 0;
+}
+
+.house-info_header{
+  font-size: 3rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.house-info_header span{
+  font-weight: lighter;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 20px;
 }
 
 @media (max-width: 375px) {
@@ -206,6 +232,10 @@ nav {
   }
 }
 
+@media (max-width : 767px){
+  .section-3_left {
+    display: none;
+}
 @media (min-width: 768px) {
   .nav {
     margin-right: auto;
