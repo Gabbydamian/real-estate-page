@@ -1,128 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Housing</title>
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="src/css/style.css" type="text/css" media="all" />
-  
-</head>
-<body>
-  <div class="page-container">
-    <div class="container">
-      <div class="row">
-        <div class="intro-main col-12 col-md-8">
-          <nav class="nav sticky-top ">
-            <a href="#" class="navbar-brand">Housing</a>
-            <ul>
-              <li><a href="#" class="nav-link">Properties</a></li>
-              <li><a href="#" class="nav-link">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="intro-main_container">
-          <h1 class="intro-main_text">
-            Get a New Place Where You Belong
-          </h1>
-          <div class="intro-main_btn">
-           <div class="play-border">
-              <a href="#"><i class="icon bi bi-play"></i></a>
-           </div>
-            <a id="offer-link" class="nav-link" href="#">See what we offer</a>
-          </div>
-          </div>
-        </div>
-        
-        <div class="intro-info col-12 col-md-4">
-          <h2 class="intro-info_header">The Grand House 'Alana'</h2>
-          <div class="accordion accordion-flush">
-            <div class="accordion-item">
-              <h3 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  See Location
-                </button>
-              </h3>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#mainAccordion">
-                <div class="accordion-body">
-                  37 boulevard Bryas, Croix, Nord-Pas-de-Calais, France.
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Housing</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="src/css/style.css"
+      type="text/css"
+      media="all"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="container">
+        <div class="row">
+          <div class="intro-main col-12 col-md-8">
+            <nav class="nav sticky-top">
+              <a href="#" class="navbar-brand">Housing</a>
+              <ul class="nav">
+                <li><a href="#" class="nav-link">Properties</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="intro-main_container">
+              <h1 class="intro-main_text">Get a New Place Where You Belong</h1>
+              <div class="intro-main_btn">
+                <div class="play-border">
+                  <a href="#"><i class="icon bi bi-play"></i></a>
                 </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h3 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  See Price
-                </button>
-              </h3>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#mainAccordion">
-                <div class="accordion-body">
-                  &dollar;6.84 Million
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h3 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Check Availability
-                </button>
-              </h3>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#mainAccordion">
-                <div class="accordion-body">
-                  <p><span id="countdown"></span></p>
-                </div>
+                <a id="offer-link" class="nav-link" href="#"
+                  >See what we offer</a
+                >
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="section-2 container">
-      <div class="row">
-        <div class="left col-12 col-md-5">
-          <div class="main-icon">
-            <img src="assets/images/icon.svg" alt="icon.svg">
+
+          <div class="intro-info col-12 col-md-4">
+            <h2 class="intro-info_header">The Grand House 'Alana'</h2>
+            <div class="accordion accordion-flush">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    See Location
+                  </button>
+                </h3>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#mainAccordion"
+                >
+                  <div class="accordion-body">
+                    37 boulevard Bryas, Croix, Nord-Pas-de-Calais, France.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    See Price
+                  </button>
+                </h3>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#mainAccordion"
+                >
+                  <div class="accordion-body">&dollar;6.84 Million</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Check Availability
+                  </button>
+                </h3>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#mainAccordion"
+                >
+                  <div class="accordion-body">
+                    <p><span id="countdown"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="icon-text">
-            Lorem ipsum dolor sit aet,consectetur adipisicing elit. 
+        </div>
+      </div>
+
+      <div class="section-2 container">
+        <div class="row">
+          <div class="left col-12 col-md-5">
+            <div class="main-icon">
+              <img src="assets/images/icon.svg" alt="icon.svg" />
+            </div>
+            <div class="icon-text">
+              Lorem ipsum dolor sit aet,consectetur adipisicing elit.
+            </div>
+          </div>
+
+          <div class="right col-12 col-md-7">
+            <div class="main-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas id
+              doloremque ab nostrum natus corporis aliquid, fugiat velit
+              voluptatum, at quae aut, eum maiores earum maxime. Doloribus neque
+              dolorem debitis!
+            </div>
           </div>
         </div>
-        
-        <div class="right col-12 col-md-7">
-          <div class="main-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas id doloremque ab nostrum natus corporis aliquid, fugiat velit voluptatum, at quae aut, eum maiores earum maxime. Doloribus neque dolorem debitis!
+      </div>
+
+      <div class="section-3 container">
+        <div class="row section-3">
+          <div class="section-3_left col-12 col-md-5">
+            <h3 class="section-3-left_header">Latest Feature</h3>
+            <p><a href="#">The Grand House 'Alana'</a></p>
+          </div>
+
+          <div class="col-12 col-md-7">
+            <h2 class="section-3-right_header">Featured Listings For You</h2>
           </div>
         </div>
       </div>
-    </div>
-    
-    <div class="section-3 container">
-      <div class="row section-3">
-        <div class="section-3_left col-12 col-md-5">
-          <h3 class="section-3-left_header">Latest Feature</h3>
-          <p><a href="#">The Grand House 'Alana'</a></p>
-        </div>
-        
-        <div class="col-12 col-md-7">
-          <h2>Featured Listings For You</h2>
-        </div>
+
+      <div class="section-4 container-fluid">
+        <div class="jumbotron-wrapper"></div>
       </div>
     </div>
-    
-    <div class="section-4 container-fluid">
-      <div class="jumbotron-wrapper">
-        <img src="assets/images/house-cropped.jpg" alt="">
-      </div>
-    </div>
-  </div>
 
-
-
-
-  <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="src/js/script.js" type="text/javascript" charset="utf-8"></script>
-</body>
+    <script
+      src="node_modules/jquery/dist/jquery.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="node_modules/bootstrap/dist/js/bootstrap.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="src/js/script.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+  </body>
 </html>
