@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+img{
+  width: 100%;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -216,6 +220,7 @@ nav {
   font-weight: 400;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .house-info_header span{
@@ -242,12 +247,13 @@ nav {
 
 .description-text{
   display: flex;
-  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .workspace, .access, .gate, .energy{
-  width: 150px;
-  margin: 10px 7px;
+ margin-top: 10px;
+ font-weight: bold;
 }
 
 @media (max-width: 375px) {
