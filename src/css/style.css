@@ -282,6 +282,11 @@ nav {
   margin: 50px 0 20px 0;
 }
 
+.section-5-container{
+  background-color: var(--off-white);
+  padding: ;
+}
+
 .section-5_left h3{
   font-weight: bold;
   margin-bottom: 30px;
@@ -317,6 +322,36 @@ nav {
  
  #section-2_background{
    background: var(--off-white);
+ }
+ 
+ input, textarea{
+   width: 100%;
+   padding: 10px 15px;
+   margin: 2px auto;
+   border-radius: 15px;
+   outline: none;
+   border: 1px solid var(--black);
+   font-family: inherit;
+   color: var(--black);
+ }
+ 
+ .form-wrapper{
+   margin: 40px auto;
+ }
+ 
+ .form-wrapper h2{
+   text-align: center;
+ }
+ 
+ .btn{
+   background-color: var(--blue);
+   color: var(--white);
+   
+ }
+ .btn:hover, .btn:active{
+   background-color: var(--black);
+   color: var(--white);
+   transition: all 0.3s ease-in-out;
  }
 
 @media (max-width: 375px) {
